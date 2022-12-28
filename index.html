@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- The Open Graph Protocal -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:site_name" content="Orag Girls"/>
+  <meta property="og:title" content="Orag Girls Landing"/>
+  <meta property="og:description" content=""/>
+  <meta property="og:image" content="./images/for_seo.jpg"/>
+  <meta property="og:url" content=""/>
+  <!-- Twitter Cards -->
+  <meta property="twitter:card" content="summary"/>
+  <meta property="twitter:site" content="Orag Girls"/>
+  <meta property="twitter:title" content="Orag Girls Landing"/>
+  <meta property="twitter:description" content=""/>
+  <meta property="twitter:image" content="./images/for_seo.jpg"/>
+  <meta property="twitter:url" content=""/>
+  <title>Orag Girls</title>
+  <link rel="icon" href="./favicon.svg">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <!-- Google APIs -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet"/>
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- Swiper.js -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+      integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollToPlugin.min.js"
+      integrity="sha512-agNfXmEo6F+qcj3WGryaRvl9X9wLMQORbTt5ACS9YVqzKDMzhRxY+xjgO45HCLm61OwHWR1Oblp4QSw/SGh9SA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"
+      integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script defer src="./js/youtube.js"></script>
+    <script defer src="./js/main.js"></script>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <a href="/" class="logo">
+        <img src="./images/logo.png" alt="Orag Girls">
+      </a>
+      <div class="sub-menu">
+        <ul class="menu">
+          <li>
+            <a href="javascript:void(0)">ABOUT</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">공지사항</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">상품 사용후기</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">상품 Q&A</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">이벤트</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">통합 Q&A</a>
+          </li>
+          <li>
+            <a href="/login">LOGIN</a>
+          </li>
+          <li class="basket-from">
+            <a href="javascript:void(0)">MYSHOP</a>
+            <div class="basket">
+              <div class="arrow"></div>
+              <div class="message">장바구니가 비어 있습니다.</div>
+              <ul>
+                <li><a href="javascript:void(0)">장바구니</a></li>
+                <li><a href="javascript:void(0)">저장된 항목</a></li>
+                <li><a href="javascript:void(0)">주문</a></li>
+                <li><a href="javascript:void(0)">계정</a></li>
+                <li><a href="javascript:void(0)">로그인</a></li>
+              </ul>
+          </li>
+        </ul>
+        <div class="search">
+          <input type="text">
+          <span class="material-icons">search</span>
+        </div>
+      </div>
+      <ul class="main-menu">
+        <li class="item">
+          <div class="item__name">ALL</div>
+        </li>
+        <li class="item">
+          <div class="item__name">BEST</div>
+        </li>
+        <li class="item">
+          <div class="item__name">NEW</div>
+        </li>
+        <li class="item">
+          <div class="item__name">OUTER</div>
+        </li>
+        <li class="item">
+          <div class="item__name">TOP</div>
+        </li>
+        <li class="item">
+          <div class="item__name">PANTS</div>
+        </li>
+        <li class="item">
+          <div class="item__name">SKIRT</div>
+        </li>
+        <li class="item">
+          <div class="item__name">DRESS</div>
+        </li>
+        <li class="item">
+          <div class="item__name">ACC</div>
+        </li>
+        <li class="item">
+          <div class="item__name">SALE</div>
+        </li>
+        <li class="item">
+          <div class="item__name">SUMMER</div>
+        </li>
+        <li class="item">
+          <div class="item__name">F/W</div>
+        </li>
+        <li class="item last">
+          <div class="item__name">LOOKBOOK</div>
+        </li>
+        <div class="item__contents">
+          <div class="text-images">
+            <div class="text-image">
+              <h2>PANTS</h2>
+              <div class="image pants"></div>
+            </div>
+            <div class="text-image">
+              <h2>DRESS</h2>
+              <div class="image dress"></div>
+            </div>
+            <div class="text-image">
+              <h2>T-SHIRT</h2>
+              <div class="image t-shirt"></div>
+            </div>
+          </div>
+          <ul class="inner">
+            <li>
+              <h4>OUTER</h4>
+              <ul>
+                <li>자켓</li>
+                <li>조끼</li>
+                <li>가디건</li>
+                <li>점퍼</li>
+                <li>코트</li>
+              </ul>
+            </li>
+            <li>
+              <h4>TOP</h4>
+              <ul>
+                <li>블라우스/셔츠</li>
+                <li>니트</li>
+                <li>티셔츠</li>
+                <li>민소매</li>
+              </ul>
+            </li>
+            <li>
+              <h4>PANTS</h4>
+              <ul>
+                <li>청바지</li>
+                <li>면바지</li>
+                <li>반바지</li>
+              </ul>
+            </li>
+            <li>
+              <h4>SKIRT</h4>
+              <ul>
+                <li>미니스커트</li>
+                <li>미디스커트</li>
+                <li>롱스커트</li>
+              </ul>
+            </li>
+            <li>
+              <h4>DRESS</h4>
+              <ul>
+                <li>미니원피스</li>
+                <li>미디원피스</li>
+                <li>롱원피스</li>
+                <li>투피스/세트</li>
+              </ul>
+            </li>
+            <li>
+              <h4>ACC</h4>
+              <ul>
+                <li>가방</li>
+                <li>신발</li>
+                <li>모자</li>
+                <li>머플러</li>
+                <li>액세서리</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </ul>
+    </div>
+  </header>
+  <section class="promotion">
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./images/promotion1.jpg" alt="OVER-FIT WINTER JUMPER">
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/promotion2.jpg" alt="KNIT POLO-NECK; SKIRT SET-UP">
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/promotion3.jpg" alt="코듀로이 밴딩 배기 팬츠">
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/promotion4.jpg" alt="배색기모롱후드집업">
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev">
+      <span class="material-icons">arrow_back</span>
+    </div>
+    <div class="swiper-button-next">
+      <span class="material-icons">arrow_forward</span>
+    </div>
+  </section>
+  <section class="event">
+    <div class="inner">
+      <div class="item">
+        <img src="./images/event1.png" alt="신규 가입 시 2,000원 할인 쿠폰 즉시 지급!"
+        onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+      </div>
+      <div class="item">
+        <img src="./images/event2.png" alt="오라걸스의 특별한 이벤트를 경험하세요 :)"
+        onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+      </div>
+      <div class="item">
+        <img src="./images/event3.png" alt="032-571-0333"
+        onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+      </div>
+    </div>
+  </section>
+  <section class="little-img">
+    <div class="inner">
+      <div class="item">
+        <img src="./images/little-img1.png" alt="이너웨어">
+      </div>
+      <div class="item">
+        <img src="./images/little-img2.jpg" alt="만원의 행복">
+      </div>
+      <div class="item">
+        <img src="./images/little-img3.png" alt="겨울 아우터">
+      </div>
+      <div class="item">
+        <img src="./images/little-img4.jpg" alt="트레이닝">
+      </div>
+    </div>
+  </section>
+  <section class="best">
+    <h1 class="title">BEST</h1>
+    <div class="inner">
+      <div class="img-container">
+        <img src="./images/best1.gif" alt="체티보 울핸드메이트코트" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>체티보 울핸드메이드코트</p>
+        <p style="color:red">한정수량 바로배송</p>
+        <p style="font-weight:bold">178,000원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/best2.gif" alt="센지프 뽀글이점퍼" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>센지프 뽀글이점퍼</p>
+        <p style="color:red">1차분완판</p>
+        <p style="color:red">2차 12월초입고예정</p>
+        <p style="font-weight:bold">55,000원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/best3.jpg" alt="보고프 양털후드점퍼" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>보고프 양털후드점퍼</p>
+        <p style="color:red">한정수량 바로배송</p>
+        <p style="font-weight:bold">59,800원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/best4.gif" alt="하히오 벨벳트레이닝세트" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>하히오 벨벳트레이닝세트</p>
+        <p style="color:red">(FREE,L)</p>
+        <p style="color:red">한정수량 바로배송</p>
+        <p style="font-weight:bold">58,000원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/best5.gif" alt="페톰프 리버시블데님자켓" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>페톰프 리버시블데님자켓</p>
+        <p style="color:red">(44~66반)</p>
+        <p style="font-weight:bold">49,800원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/best6.gif" alt="해노프 배색기모롱후드집업" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>해노프 배색기모롱후드집업</p>
+        <p style="font-weight:bold">68,000원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/best7.jpg" alt="스켄프 골지점퍼" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>스켄프 골지점퍼</p>
+        <p style="color:red">특별할인가</p>
+        <p style="font-weight:bold">59,800원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/best8.gif" alt="샌차프 골지밴딩배기팬츠" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>샌차프 골지밴딩배기팬츠</p>
+        <p style="color:red">한정수량 바로배송</p>
+        <p style="color:red">(FREE,L)</p>
+        <p style="font-weight:bold">29,800원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/best9.jpg" alt="헤코프 배색양털점퍼" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>헤코프 배색양털점퍼</p>
+        <p style="color:red">한정수량 바로배송</p>
+        <p style="font-weight:bold">39,800원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/best10.jpg" alt="무치브 반집업폴라니트" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>무치브 반집업폴라니트</p>
+        <p style="color:red">(44~66반)</p>
+        <p style="font-weight:bold">19,800원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/best11.jpg" alt="젤루프 기모롱후드집업" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>젤루프 기모롱후드집업</p>
+        <p style="font-weight:bold">58,000원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/best12.gif" alt="라볼츠 패딩베스트" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>라볼츠 패딩베스트</p>
+        <p style="color:red">한정수량 바로배송</p>
+        <p style="font-weight:bold">48,000원</p>
+      </div>
+    </div>
+  </section>
+  <section class="new">
+    <h1 class="title">NEW ARRIVAL</h1>
+    <div class="inner">
+      <div class="img-container">
+        <img src="./images/new1.gif" alt="테로즐 무스탕자켓" class="item">
+        <img src="./images/new.png" alt="new">
+        <p>테로즐 무스탕자켓</p>
+        <p style="color:red">11/14(월) AM9:00에 만나요</p>
+        <p style="color:red">한정수량 바로배송</p>
+        <p style="font-weight:bold">122,500원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new2.gif" alt="프바프 울핸드메이드자켓" class="item">
+        <p>프바프 울핸드메이드자켓</p>
+        <p style="color:red">11/14(월) AM9:00에 만나요</p>
+        <p style="color:red">한정수량 바로배송</p>
+        <p style="font-weight:bold">148,000원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new3.gif" alt="헤온스 안감퍼체크밴딩팬츠" class="item">
+        <p>헤온스 안감퍼체크밴딩팬츠</p>
+        <p style="color:red">추가구매시 할인!</p>
+        <p style="font-weight:bold">15,000원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new4.gif" alt="하히오 벨벳트레이닝세트" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>하히오 벨벳트레이닝세트</p>
+        <p style="color:red">(FREE,L)</p>
+        <p style="color:red">한정수량 바로배송</p>
+        <p style="font-weight:bold">58,000원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new5.gif" alt="파노트 무스탕베스트" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>파노트 무스탕베스트</p>
+        <p style="color:red">특별할인가</p>
+        <p style="font-weight:bold">49,800원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new6.gif" alt="스켄프 골지점퍼" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>스켄프 골지점퍼</p>
+        <p style="color:red">특별할인가</p>
+        <p style="font-weight:bold">59,800원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new7.gif" alt="포버츠 남녀공용양기모맨투맨" class="item">
+        <img src="./images/new.png" alt="new">
+        <p>포버츠 남녀공용양기모맨투맨</p>
+        <p style="color:red">남녀공용</p>
+        <p style="font-weight:bold">53,200원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new8.gif" alt="메조프 플레어스커트" class="item">
+        <img src="./images/new.png" alt="new">
+        <p>메조프 플레어스커트</p>
+        <p style="color:red">(44~66반)</p>
+        <p style="font-weight:bold">53,200원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new9.gif" alt="미토프 폴라박시니트" class="item">
+        <img src="./images/new.png" alt="new">
+        <p>미토프 폴라박시니트</p>
+        <p style="color:red">(44~66반)</p>
+        <p style="font-weight:bold">18,800원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new10.gif" alt="메솔르 남녀공용양기모트레이닝팬츠" class="item">
+        <img src="./images/new.png" alt="new">
+        <p>메솔르 남녀공용양기모트레이닝팬츠</p>
+        <p style="color:red">남녀공용</p>
+        <p style="font-weight:bold">51,300원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new11.gif" alt="체콘프 라운드니트" class="item">
+        <img src="./images/new.png" alt="new">
+        <p>체콘프 라운드니트</p>
+        <p style="color:red">(44~77)</p>
+        <p style="font-weight:bold">55,100원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new12.gif" alt="보고프 양털후드점퍼" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>보고프 양털후드점퍼</p>
+        <p style="color:red">한정수량 바로배송</p>
+        <p style="font-weight:bold">59,800원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new13.gif" alt="스콜프 레이어드니트" class="item">
+        <p>스콜프 레이어드니트</p>
+        <p style="color:red">(44~66)</p>
+        <p style="font-weight:bold">46,000원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new14.gif" alt="솔카프 데님배기팬츠" class="item">
+        <img src="./images/best.png" alt="best">
+        <img src="./images/new.png" alt="new">
+        <p>솔카프 데님배기팬츠</p>
+        <p style="color:red">(S,M,L)</p>
+        <p style="font-weight:bold">60,800원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new15.gif" alt="포빅트 기모골지맨투맨" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>포빅트 기모골지맨투맨</p>
+        <p style="color:red">(44~66반)</p>
+        <p style="font-weight:bold">19,800원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new16.gif" alt="레폰츠 기모나염맨투맨(D11)" class="item">
+        <img src="./images/new.png" alt="new">
+        <p>레폰츠 기모나염맨투맨</p>
+        <p style="color:red">(44~77)</p>
+        <p style="font-weight:bold">39,900원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new17.gif" alt="센지프 뽀글이점퍼" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>센지프 뽀글이점퍼</p>
+        <p style="color:red">1차분 완판</p>
+        <p style="color:red">2차 12월초입고예정</p>
+        <p style="font-weight:bold">55,000원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new18.gif" alt="누터프 기모골지조거밴딩팬츠" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>누터프 기모골지조거밴딩팬츠</p>
+        <p style="color:red">(44~66반)</p>
+        <p style="font-weight:bold">19,800원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new19.gif" alt="페톰프 리버시블데님자켓" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>페톰프 리버시블데님자켓</p>
+        <p style="color:red">(44~66반)</p>
+        <p style="font-weight:bold">49,800원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new20.gif" alt="터쉬드 폴라니트" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>터쉬드 폴라니트</p>
+        <p style="color:red">(44~77)</p>
+        <p style="font-weight:bold">39,800원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new21.gif" alt="바젠프 뽀글이베스트" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>바젠프 뽀글이베스트</p>
+        <p style="color:red">(44~66반)</p>
+        <p style="font-weight:bold">19,800원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new22.gif" alt="마우프 패턴후드니트" class="item">
+        <p>마우프 패턴후드니트</p>
+        <p style="color:red">(44~66반)</p>
+        <p style="font-weight:bold">49,800원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new23.gif" alt="도마프 기모후드투웨이집업" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>도마프 기모후드투웨이집업</p>
+        <p style="color:red">(44~66반)</p>
+        <p style="font-weight:bold">29,000원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new24.gif" alt="튜리엔 겉기모체크롱남방" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>튜리엔 겉기모체크롱남방</p>
+        <p style="color:red">(44~77)</p>
+        <p style="font-weight:bold">59,800원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new25.gif" alt="토워프 단가라니트후드원피스" class="item">
+        <p>토워프 단가라니트후드원피스</p>
+        <p style="color:red">(44~66반)</p>
+        <p style="font-weight:bold">43,900원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new26.gif" alt="탠치스 기모자수후드티" class="item">
+        <p>탠치스 기모자수후드티</p>
+        <p style="color:red">(44~66반)</p>
+        <p style="font-weight:bold">29,800원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new27.gif" alt="벤토프 더블누빔점퍼" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>벤토프 더블누빔점퍼</p>
+        <p style="color:red">(44~77)</p>
+        <p style="font-weight:bold">45,900원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new28.gif" alt="네코브 브이넥핸드메이드니트" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>네코브 브이넥핸드메이드니트</p>
+        <p style="color:red">(44~66반)</p>
+        <p style="color:red">11/16 입고예정</p>
+        <p style="font-weight:bold">32,000원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new29.gif" alt="아그엘 플라워퍼점퍼" class="item">
+        <p>아그엘 플라워퍼점퍼</p>
+        <p style="color:red">(44~77)</p>
+        <p style="font-weight:bold">49,800원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new30.gif" alt="차노프 안감퍼체크후드남방" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>차노프 안감퍼체크후드남방</p>
+        <p style="color:red">(44~77)</p>
+        <p style="color:red">11/16 입고예정</p>
+        <p style="font-weight:bold">24,000원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new31.jpg" alt="손키프 유브이넥반팔티" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>손키프 유브이넥반팔티</p>
+        <p style="color:red">(44~66반)</p>
+        <p style="font-weight:bold">15,000원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new32.gif" alt="워프보 기모스판레깅스" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>워프보 기모스판레깅스</p>
+        <p style="color:red">(44~66)</p>
+        <p style="color:red">11/18 입고예정</p>
+        <p style="font-weight:bold">10,000원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new33.gif" alt="코베오 겉기모트레이닝세트" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>코베오 겉기모트레이닝세트</p>
+        <p style="color:red">(44~77)</p>
+        <p style="font-weight:bold">39,800원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new34.gif" alt="샌차프 골지밴딩배기팬츠" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>샌차프 골지밴딩배기팬츠</p>
+        <p style="color:red">한정수량 바로배송</p>
+        <p style="color:red">(FREE,L)</p>
+        <p style="font-weight:bold">29,800원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new35.gif" alt="너디프 니트세트" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>너디프 니트세트</p>
+        <p style="color:red">한정수량 바로배송</p>
+        <p style="font-weight:bold">58,000원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new36.gif" alt="텐바스 기모박시나염맨투맨" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>텐바스 기모박시나염맨투맨</p>
+        <p style="color:red">(44~77)</p>
+        <p style="font-weight:bold">34,900원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new37.gif" alt="시엔브 나염박시롱티" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>시엔브 나염박시롱티</p>
+        <p style="color:red">(44~77)</p>
+        <p style="font-weight:bold">19,000원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new38.gif" alt="투테프 퀼팅베스트" class="item">
+        <p>투테프 퀼팅베스트</p>
+        <p style="color:red">(44~77)</p>
+        <p style="color:red">11/24 입고예정</p>
+        <p style="font-weight:bold">98,000원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new39.gif" alt="타무츠 스판유브이긴팔티" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>타무츠 스판유브이긴팔티</p>
+        <p style="font-weight:bold">15,000원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/new40.gif" alt="팬시오 양기모반집업맨투맨" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>팬시오 양기모반집업맨투맨</p>
+        <p style="color:red">(44~77)</p>
+        <p style="font-weight:bold">26,000원</p>
+      </div>
+      <button>신상품 더보기</button>
+    </div>
+  </section>
+  <section class="with">
+    <h1 class="title">WITH ITEM</h1>
+    <div class="inner">
+      <div class="img-container">
+        <img src="./images/with1.gif" alt="트셀로 레더숄더백" class="item">
+        <p>트셀로 레더숄더백</p>
+        <p style="font-weight:bold">44,000원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/with2.gif" alt="메센프 니트장갑" class="item">
+        <p>메센프 니트장갑</p>
+        <p style="font-weight:bold">12,000원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/with3.gif" alt="텔로츠 뽀글이플랫폼스니커즈" class="item">
+        <p>텔로츠 뽀글이플랫폼스니커즈</p>
+        <p style="font-weight:bold">44,000원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/with4.gif" alt="토손프 무지에코백" class="item">
+        <p>토손프 무지에코백</p>
+        <p style="font-weight:bold">19,800원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/with5.gif" alt="테코아 뽀글이스니커즈뮬" class="item">
+        <p>테코아 뽀글이스니커즈뮬</p>
+        <p style="font-weight:bold">52,000원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/with6.gif" alt="롤라시 밍크퍼스판레깅스" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>롤라시 밍크퍼스판레깅스</p>
+        <p style="color:red">(백화점상품)</p>
+        <p style="color:red">3차입고완료!!</p>
+        <p style="font-weight:bold">15,000원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/with7.gif" alt="온테크 스웨이드숄더백" class="item">
+        <p>온테크 스웨이드숄더백</p>
+        <p style="font-weight:bold">28,000원</p>
+      </div>
+      <div class="img-container">
+        <img src="./images/with8.gif" alt="앙고풀 앙고라벙거지" class="item">
+        <img src="./images/best.png" alt="best">
+        <p>앙고풀 앙고라벙거지</p>
+        <p style="color:red">(백화점상품)</p>
+        <p style="font-weight:bold">29,800원</p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="inner">
+      <div class="inner1">
+        <div class="CS">
+          <span style="color:white;font-weight:bold">C/S</span><br><br>
+          <span style="color:white;font-weight:bold">0325710333</span><br>
+          <span>OPEN AM 10:00 - PM 05:00</span><br>
+          <span>LUNCH PM 12:00 - PM 01:00</span><br>
+          <span>SAT, SUN, HOLIDAY OFF</span><br><br>
+          <span style="color:white;font-weight:bold">BANK</span><br><br>
+          <span>기업 491-067838-01-013</span><br>
+          <span>예금주 : 김현지</span>
+        </div>
+      </div>
+      <div class="inner2">
+        <span style="color:white;font-weight:bold">SHOP INFO</span><br><br>
+        <span>COMPANY. 오라걸스      OWNER. 김현지</span><br>
+        <span>BUSINESS LICENSE. 292-43-00682</span><br>
+        <span>ONLINE LICENSE. 2020-인천서구-1026호</span><br>
+        <span>TEL. 0325710333      MASTER. 김현지</span><br>
+        <span>E-MAIL. guswl4781@naver.com</span><br>
+        <span>ADD. 22793 인천광역시 서구 길주로 26 (석남동) 1층 오라걸스</span><br><br>
+        <span style="color:white;font-weight:bold">DELIVERY & RETURN</span><br><br>
+        <span>배송조회. [ 한진택배 1588-0011 ]</span><br>
+        <span>반품교환주소. 22754 인천광역시 서구 호두산로58번길 38 (경서동)신작전영업소</span>
+      </div>
+      <div class="inner3">
+        <span>ABOUT US</span><br>
+        <span>GUIDE</span><br>
+        <span>AGREEMENT</span><br>
+        <span>개인정보처리방침</span><br><br><br><br>
+        <span>카카오톡 @ oragirls</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
